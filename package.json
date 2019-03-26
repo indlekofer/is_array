@@ -1,0 +1,24 @@
+{
+  "name": "@indlekofer/is_array",
+  "version": "1.0.0",
+  "description": "is array",
+  "author": "Daniel Indlekofer <daniel@indlekofer.org>",
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/indlekofer/is_array.git"
+  },
+  "main": "./lib/index.js",
+  "scripts": {
+    "build:commonjs": "babel src --out-dir lib",
+    "build": "npm run build:commonjs",
+    "test": "mocha --require @babel/register"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.4.0",
+    "@babel/preset-env": "^7.4.2",
+    "@babel/register": "^7.4.0",
+    "mocha": "^4.0.1"
+  }
+}
