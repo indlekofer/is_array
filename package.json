@@ -1,6 +1,6 @@
 {
   "name": "@indlekofer/is_array",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "is array",
   "author": "Daniel Indlekofer <daniel@indlekofer.org>",
   "keywords": [],
@@ -9,9 +9,9 @@
     "type": "git",
     "url": "https://github.com/indlekofer/is_array.git"
   },
-  "main": "./lib/index.js",
+  "main": "./cjs/index.js",
   "scripts": {
-    "build:commonjs": "babel src --out-dir lib",
+    "build:commonjs": "babel src --out-dir cjs",
     "build": "npm run build:commonjs",
     "test": "mocha --require @babel/register",
     "test:cover": "nyc --reporter=text mocha --require @babel/register"
@@ -23,5 +23,8 @@
     "@babel/register": "^7.4.0",
     "mocha": "^6.0.2",
     "nyc": "^13.3.0"
-  }
+  },
+  "files": [
+    "cjs/"
+  ]
 }
