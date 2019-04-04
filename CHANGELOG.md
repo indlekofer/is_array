@@ -1,5 +1,7 @@
 ## [Unreleased]
 
+* added eslint
+
 ## 1.2.0 (2019-03-27)
 
 * fixed invalid parameter name
