@@ -1,6 +1,7 @@
-# @indlekofer/is_array
+# DEPRECATED
+all browsers support the built-in implementation
 
-@deprecated all prowsers support the built-in implementation
+## @indlekofer/is_array
 
 ## Usage
 
